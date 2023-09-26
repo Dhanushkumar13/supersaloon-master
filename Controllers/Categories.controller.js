@@ -3,7 +3,7 @@ const CategoriesModel = require("../Models/Categories.model");
 
 /**
  * ENDPOINT - GET ALL Mentor DATA
- * PATH TO ACTIVATE THIS METHOD = http://localhost:5000/api/mentors/
+ * PATH TO ACTIVATE THIS METHOD = http://localhost:5000/api/categories/
  */
 CategoriesController.get("/", (request, response, next) => {
   console.log("HIT");
